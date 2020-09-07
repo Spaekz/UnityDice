@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class Dices : MonoBehaviour
+public abstract class Dice : ScriptableObject
 {
     public string m_Name;
 
     [Header("Apparence")]
     public Image m_ImageDice;
 
-    public  void getCurrentface()
+    virtual public void GetCurrentFace()
     {
         //to be implemented
     }

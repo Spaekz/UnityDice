@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e2ee15df25e224d8f054f1f2a5dcf1, type: 3}
+  m_Name: 1_BlackWidow
+  m_EditorClassIdentifier: 
+  m_Name: Black Widow
+  m_SubName: Natasha
+  m_Image: {fileID: 21300000, guid: 7f0a2f7835545c04fb287edf3e4cc9f2, type: 3}
+  m_Cost: 2
+  m_MaxDice: 4
+  m_Affiliations:
+  - Avengers
+  m_Description: Black Widow can't be blocked unless your opponent spins down one
+    of their character dice.
+  m_Capabilities: []
+  m_Special1: 
+  m_Special2: 
