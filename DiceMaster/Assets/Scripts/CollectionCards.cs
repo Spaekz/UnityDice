@@ -21,6 +21,7 @@ public class CollectionCards : MonoBehaviour
         for (int i = 0; i < m_CardsCharacters.Count; i++)
         {
             m_SlotsCardsCharacters[i].GetComponent<Image>().sprite = m_CardsCharacters[i].m_Image;
+            m_SlotsCardsCharacters[i].GetComponent<SlotCharacters>().m_CardCharacter = m_CardsCharacters[i];
         }
     }
 

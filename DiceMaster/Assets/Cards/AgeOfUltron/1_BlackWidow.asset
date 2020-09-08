@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e2ee15df25e224d8f054f1f2a5dcf1, type: 3}
   m_Name: 1_BlackWidow
   m_EditorClassIdentifier: 
-  m_Name: Black Widow
+  m_NameCard: BlackWidow
   m_SubName: Natasha
   m_Image: {fileID: 21300000, guid: 7f0a2f7835545c04fb287edf3e4cc9f2, type: 3}
   m_Cost: 2
